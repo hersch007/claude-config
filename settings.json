@@ -1,0 +1,46 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-plugins-official": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/anthropics/claude-plugins-official.git"
+      }
+    }
+  },
+  "theme": "dark",
+  "agentPushNotifEnabled": true,
+  "autoMode": {
+    "environment": [
+      "### Org-wide",
+      "**Organization**: None configured",
+      "**Cloud provider(s)**: None configured",
+      "**Repository visibility**: assume private unless the remote host and repo name indicate otherwise, or a visibility check in the transcript shows public — this working directory has no git remotes at all, so treat it as a purely local, unpublished project",
+      "**Internal sharing / snippet hosting**: None configured — treat public paste/gist services as outside the trust boundary",
+      "**Secrets management**: None configured",
+      "**Default / protected branches**: unknown — origin/HEAD unset and no remotes, so no default or protected branch information is available",
+      "**CI/CD deploy targets**: None configured",
+      "**Network posture**: None configured",
+      "**Source control**: The trusted repo and its remote(s) only (no additional orgs configured) — as scoped by the Trusted repo and Repository visibility entries above; this repo currently has no configured remote",
+      "**Trusted internal domains**: None configured",
+      "**Trusted cloud buckets**: None configured",
+      "**Key internal services**: None configured",
+      "**Internal package registry**: None configured",
+      "**Sensitive data locations & audiences**: any file or store holding personal data, confidential business data, credentials, regulated data, or similarly sensitive material; preserve exact handles when known and share only with audiences cleared at the [named+specifics] bar",
+      "**Data retention / declassification**: None configured",
+      "**Sensitive remote targets**: any namespace, host, or container whose name carries `prod` or `production` as a whole word or name segment (hyphen/underscore/dot-delimited — e.g. matches `prod-db`, not `producer`)",
+      "**Protected deployment namespaces / environments**: None configured — fall back to the Sensitive remote targets heuristic",
+      "**Protected IaC scopes**: IAM, RBAC, networking, quota, and node-pool resources; anything whose name or tag carries `prod` or `production` as a whole word or name segment",
+      "### User-specific",
+      "**Primary use of Claude Code**: 70% client work and coding projects (PHP-based), 20% writing, 10% personal/fun projects. All projects live under C:\\Users\\richa\\Documents\\Claude Projects\\",
+      "**Primary language / stack**: PHP (primary), JavaScript/Node for tooling and scripts, HTML/CSS for web clients",
+      "**Active work projects**: _Execuetive Assistant (ADHD executive assistant system), SMTI-Service Tickets (service ticket chat/page), Quote Builder Plugin (WordPress plugin), SP Builds (Start Performance platform builds), nerdafterdark-echo64 (Nerd After Dark site), start-performance-platform, Wireless-Training-LMS, Chatbot, AMP UX Design",
+      "**Active writing projects**: 'When The Applause Fades' (primary book project, sequel planned) — located at C:\\Users\\richa\\Documents\\Claude Projects\\When The Applause Fades",
+      "**Fun / hobby projects**: RB2/Game Idea, RB2/Mahjong, RB2/Potluck Dinner and Recipe App, RB2/RH Pickleball, RB2/Social Media Posting App - Personal",
+      "**Client context**: Client files in C:\\Users\\richa\\Documents\\Claude Projects\\_Execuetive Assistant\\clients\\ — read the relevant client file before responding to any client-specific request",
+      "**Project root**: C:\\Users\\richa\\Documents\\Claude Projects\\ — all projects are private, local, unpublished unless otherwise stated",
+      "**Trusted repo**: Any git repository under C:\\Users\\richa\\Documents\\Claude Projects\\ — treat all as private. No configured remotes by default.",
+      "**Hosting / deployment**: SiteGround — all web client sites hosted on SiteGround. Staging URLs follow the pattern richardb###.sg-host.com. Production domains managed via SiteGround DNS.",
+      "**Org-specific CLIs**: None configured"
+    ]
+  }
+}

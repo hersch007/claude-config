@@ -1,0 +1,2 @@
+- [Annie's Spa site setup](annies-spa-site-setup.md) — staging URL, `/annie/` subdirectory gotcha, page slugs, phone-first CTAs
+- [Annie's Spa image conventions](annies-spa-image-conventions.md) — 1200px/quality-82 sizing, `-rock-hill-sc` naming, PowerShell optimization workflow

@@ -1,0 +1,2 @@
+- [Richard is a solo nights-and-weekends game dev](richard-solo-gamedev.md) — codes it all himself, no team or budget, so scope accordingly.
+- [Steam casual game project](steam-casual-game-project.md) — AI-takes-over-your-life game with conspiracy intrigue; delegation-vs-autonomy is the core tradeoff.

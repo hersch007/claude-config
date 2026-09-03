@@ -1,0 +1,23 @@
+# Memory Index — Start Performance Platform
+
+- [Project Overview](project_overview.md) — What the platform is, who built it, build philosophy
+- [User Profile](user_profile.md) — Richard Brashear, founder of Start Performance, building a modular WordPress business platform
+- [Plugin Versions](plugin_versions.md) — Per-site version tracking (Core/SMTI/Fruth), local vs deployed, core vs custom split
+- [Core Platform Architecture](core_platform_architecture.md) — Addon registration hooks, auth pattern, branding system, PHP constraints, zip build pattern
+- [Version Bump Rule](feedback_version_bump.md) — Always bump version on every build or WordPress won't overwrite cached files
+- [Zip Build Rule](feedback_zip_build.md) — Build zips with forward-slash paths or WordPress says "Plugin file does not exist"
+- [Working Directory](feedback_working_directory.md) — Master source is C:\Users\richa\Documents\Claude Projects\start-performance-platform — always read/write from C:
+- [Product Pricing](product_pricing.md) — Foundation $99/mo, Performance Cores $249/mo + setup, two sales pitches
+- [Legal Pages Feature](project_legal_pages.md) — Terms/Privacy/DPA pages live on all 3 sites, login checkbox built but hidden — ready to re-enable
+- [Custom Module Deactivation Rule](feedback_custom_module_deactivation.md) — Client custom module replacing a Core → deactivate that core plugin entirely there, don't just hide nav
+- [Encoding Fixes](feedback_encoding_fixes.md) — Widespread mojibake bug across plugin source; safe fix method (Windows-1252 roundtrip) and the gotcha that destroyed already-fixed text on a repeat pass
+- [SP App No-Cache](project_sp_app_no_cache.md) — "Screens crapping out" root cause: Newfold endurance-page-cache browser-caching the authed SP app; fixed with no-store headers in sp_route (core 2.5.3)
+- [Daily Digest Email](project_daily_digest.md) — The "needs your attention today" email = sp_daily_digest cron; now toggle-controlled in Settings→Email (core 2.5.5); sp_tasks has no updated_at column
+- [Service Portal Improvements](project_service_portal_improvements.md) — SMTI customer change requests: clickable tabs/search/notes/image-bug shipped (smti-service 1.2.6), Waiting on Parts stage added; Phase 3 (detail-view perf) remaining
+- [Super Admin Auth Gotcha](project_super_admin_auth_gotcha.md) — Gates checking only sp_get_current_team_member() silently 403 super admins; always use sp_is_authed() (core 2.5.11). Bit us 3× — including "SMTI quote search broken"
+- [AI Is Not a Destination](project_ai_not_a_destination.md) — AI removed from core dashboard + standalone nav (core 2.5.13); config in Settings→AI, Pipeline Insights moved to Intelligence via sp_intel_after_ai_summary. Gotcha: removing a nav item makes core show a "locked upsell teaser" — active addon must strip its own *-core slot
+- [SMTI Accent on Black](feedback_smti_accent_on_black.md) — SMTI's accent #111827 ≈ its black sidebar, so raw --sp-accent nav highlights vanish; composite translucent white over the accent. Bit us twice (active pill 2.5.10, Intelligence hero 2.5.17)
+- [Chat Core](project_chat_core.md) — Managed AI website-chat addon (claims chat-core slot). Super-admin owns prompt+guardrails, client owns content. Public support/FAQ bot, grounded in Knowledge Core. Phase 1 SHIPPED to sp (v0.7.0): policy panel, endpoints, widget, guardrails, quick-buttons. Spec at docs/Chat-Core-Build-Spec.md
+- [FiberCo Instance](project_fiberco.md) — 5th SP instance at /fiber (fiber-ISP lead-gen); fiberco-sp addon wraps the AI chatbot's leads under Sales Core; old /FiberCo site has broken wp-cli (Endurance cache)
+- [WTS LMS](project_wts_lms.md) — 4th instance "Wireless Tower Solutions" at /wts-app (knowledge-only, blue #29A8E0); wts-lms addon wraps WTS's file-based AMP LMS native under Knowledge Core (SP auth, 80% quizzes, progress in wts_lms_* tables). Built 2026-07-13
+- [Government Service Core](project_government_service_core.md) — New municipal/city government vertical. Plugin government-service-core v1.2.17 (active build as of 2026-08-28). Multi-dept tickets, on-call scheduling, SMS/email notifications, public submission form. First client: City of Clinton SC.

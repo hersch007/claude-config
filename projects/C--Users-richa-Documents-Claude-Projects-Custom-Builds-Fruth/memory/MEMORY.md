@@ -1,0 +1,2 @@
+- [FIS-5100RD still unpriced](project_fruth_meeting_fis5100rd.md) — still a resin-cost gap as of the Kris Hall workbook (2026-07-18), don't guess a value
+- [Standalone Fruth site grandfathered pricing](project_standalone_fruth_grandfathered_pricing.md) — user declined to sync standalone site's Formula Costs to sp-fruth's updated values; leave it alone unless asked

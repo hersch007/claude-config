@@ -1,0 +1,1 @@
+- [CFB client onboarding](client-cfb-cleanroom-film-bags.md) — Cleanroom Film & Bags onboarded 2026-07-16, score 62/100, Start Advertising branding + contact details

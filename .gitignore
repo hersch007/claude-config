@@ -1,0 +1,25 @@
+# NEVER commit credentials
+.credentials.json
+
+# Conversation transcripts (large, machine-specific)
+projects/**/*.jsonl
+
+# Session tool result caches and runtime files
+projects/*/[0-9a-f][0-9a-f][0-9a-f][0-9a-f]*/
+projects/**/*.txt
+projects/**/*.desktop-released.json
+.last-cleanup
+
+# Session & runtime data
+sessions/
+session-env/
+telemetry/
+shell-snapshots/
+backups/
+
+# Cache & downloads
+cache/
+downloads/
+
+# Plugin data (reinstall on each machine)
+plugins/

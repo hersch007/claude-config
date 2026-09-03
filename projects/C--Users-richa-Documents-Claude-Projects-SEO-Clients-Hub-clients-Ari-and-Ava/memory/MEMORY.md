@@ -1,0 +1,2 @@
+- [Ari + Ava — prospect, not client](ari-and-ava-prospect.md) — shopariandava.com onboarded 2026-08-17 as a pitch asset; don't treat findings as verified delivery work.
+- [GroupRB report branding](grouprb-report-branding.md) — agency name, navy/steel-blue palette, email+website CTA; use as defaults without asking.
