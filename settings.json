@@ -30,6 +30,10 @@
       "**Sensitive remote targets**: any namespace, host, or container whose name carries `prod` or `production` as a whole word or name segment (hyphen/underscore/dot-delimited — e.g. matches `prod-db`, not `producer`)",
       "**Protected deployment namespaces / environments**: None configured — fall back to the Sensitive remote targets heuristic",
       "**Protected IaC scopes**: IAM, RBAC, networking, quota, and node-pool resources; anything whose name or tag carries `prod` or `production` as a whole word or name segment",
+      "**Repository visibility**: not queryable here via gh (capability failure) — remote is github.com/hersch007/claude-projects; assume private per shipped default until verified",
+      "**Default / protected branches**: Default branch is main (from repo facts); protected-branch/ruleset status not queryable here via gh",
+      "**Host containment**: None configured — assume Claude Code runs on an ordinary developer machine or CI runner with open internet",
+      "**Source control**: The trusted repo (github.com/hersch007/claude-projects) and its origin remote only (no additional orgs configured)",
       "### User-specific",
       "**Primary use of Claude Code**: 70% client work and coding projects (PHP-based), 20% writing, 10% personal/fun projects. All projects live under C:\\Users\\richa\\Documents\\Claude Projects\\",
       "**Primary language / stack**: PHP (primary), JavaScript/Node for tooling and scripts, HTML/CSS for web clients",
@@ -40,7 +44,9 @@
       "**Project root**: C:\\Users\\richa\\Documents\\Claude Projects\\ — all projects are private, local, unpublished unless otherwise stated",
       "**Trusted repo**: Any git repository under C:\\Users\\richa\\Documents\\Claude Projects\\ — treat all as private. No configured remotes by default.",
       "**Hosting / deployment**: SiteGround — all web client sites hosted on SiteGround. Staging URLs follow the pattern richardb###.sg-host.com. Production domains managed via SiteGround DNS.",
-      "**Org-specific CLIs**: None configured"
+      "**Org-specific CLIs**: None configured",
+      "**Primary use of Claude Code**: software development — WordPress-based business automation platform (PHP)",
+      "**Trusted repo**: This git repository (start-performance-platform, remote github.com/hersch007/claude-projects.git) and its configured origin remote only"
     ]
   }
 }
