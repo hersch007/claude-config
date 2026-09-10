@@ -16,6 +16,7 @@ session-env/
 telemetry/
 shell-snapshots/
 backups/
+file-history/
 
 # Cache & downloads
 cache/
