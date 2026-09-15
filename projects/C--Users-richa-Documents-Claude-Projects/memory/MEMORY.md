@@ -16,3 +16,4 @@
 - [SEO audit report format](feedback-seo-audit-report-format.md) — deliverable is the seo-tool crawler HTML/PDF dashboard (Fruth-style), not a hand-written Word doc; run audit.js, watch for 429s, encode %20 in file:// URLs for Chrome PDF export
 - [Fruth SEO client](project-fruth.md) — fruth.com HubSpot site; 25 pages live/14 pending/1 blocked (404) as of 2026-09-14; never trust content-creation/build-client-docs.js's implemented tracker without a live re-check
 - [Fruth billing increments](feedback-fruth-billing-increments.md) — bill WORK-LOG.md hours in 15-min steps (0.25 multiples); content+FAQ dev for one page ≈ 1.25h
+- [Joe Welch Photography (prospect)](project-joewelchphotography.md) — score 70/100, Prospect Report + pricing sent 2026-09-14, awaiting reply; don't send Master Report or start paid work until he signs on

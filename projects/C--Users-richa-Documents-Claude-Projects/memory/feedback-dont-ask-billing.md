@@ -13,3 +13,7 @@ Do not ask Richard how he bills CPFlex ("Garlock") SEO work. The model (confirme
 
 **Why:** Richard has had to re-explain this repeatedly; it is a known frustration.
 **How to apply:** When a page is implemented, suggest logging ~1 h (light page) to ~1.5 h (heavy alt-text page) under Garlock for that day, and flag if the work may already be covered by hours logged on the day it was done. See [[project-cpflex]].
+
+**Where the per-item detail lives (found 2026-09-15):** `RB2/GroupRB Billables for Start/daily/YYYY-MM-DD.json` has a `rows[]` array of 15-minute blocks with `client` (GAR), `job` code and a free-text `note` naming the page/article and phase ("Blog Shrink Band Schema"). The `append-*.json` files only hold day totals. To answer "was X billed?", grep the `note` fields across `daily/2026-*.json` — do not rely on the ☐/✓ Billing flags in the Word running logs, which were stale until reconciled on 2026-09-15.
+
+Job codes seen: 0790165 SEO Research · 0790147 AI SEO · 0790149 Schema · 0790166/0790167/0790146 Implementation/Web Updates · 0790148 Additional Content · 0790168 SEO Tracking/Audit.
